@@ -21,6 +21,7 @@ import java.net.Socket;
  *
  */
 public class MainActivity extends ActionBarActivity {
+    // br-1 브랜치용 수정
 
     EditText input01;
 

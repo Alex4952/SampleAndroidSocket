@@ -22,6 +22,9 @@ import java.net.Socket;
 public class MainActivity extends ActionBarActivity {
 	// br-1 브랜치용 수정
 	// Mac에서 수정한 파일
+	//  br-1에서 수정하고 update or pull 차이점 확인
+	// update:
+	// pull:
 
 	EditText input01;
 

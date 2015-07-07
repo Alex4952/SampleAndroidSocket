@@ -20,12 +20,6 @@ import java.net.Socket;
  * @author Mike
  */
 public class MainActivity extends ActionBarActivity {
-	// br-1 브랜치용 수정
-	// Mac에서 수정한 파일
-	//  br-1에서 수정하고 update or pull 차이점 확인
-	// one more time
-	// update:
-	// pull:
 
 	EditText input01;
 
@@ -62,7 +56,7 @@ public class MainActivity extends ActionBarActivity {
 		public void run() {
 
 			try {
-				int port = 11001;
+				int port = 5001;
 
 				Socket sock = new Socket(hostname, port);
 				ObjectOutputStream outstream = new ObjectOutputStream(sock.getOutputStream());
